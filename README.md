@@ -1,9 +1,9 @@
-# Principles of writing consistent, idiomatic CSS
+# Deloitte Digital's CSS Styleguide
 
-The following document outlines a reasonable style guide for CSS development.
-It is not meant to be prescriptive and I do not wish to impose my style
-preferences on other people's code. However, these guidelines do strongly
-encourage the use of existing, common, sensible patterns.
+This styleguide has been forked from Nicolas Gallagher's
+[Idiomatic CSS](https://github.com/necolas/idiomatic-css) project.
+It is temporarily hosted on Keegan Street's Github account but will
+be transferred to Deloitte's account.
 
 This is a living document and new ideas are always welcome. Please
 contribute.
@@ -48,14 +48,13 @@ be consistent in your use of whitespace. Use whitespace to improve
 readability.
 
 * _Never_ mix spaces and tabs for indentation.
-* Choose between soft indents (spaces) or real tabs. Stick to your choice
-  without fail. (Preference: spaces)
-* If using spaces, choose the number of characters used per indentation level.
-  (Preference: 4 spaces)
+* Always use real tabs instead of spaces. This allows other developers to set
+  a tab width of their choice.
 
 Tip: configure your editor to "show invisibles". This will allow you to
 eliminate end of line whitespace, eliminate unintended blank line whitespace,
-and avoid polluting commits.
+and avoid polluting commits. In Sublime Text, this can be achieved by adding
+`"draw_white_space": "all"` to your User Preferences file.
 
 Tip: use an [EditorConfig](http://editorconfig.org/) file (or equivalent) to
 help maintain the basic whitespace conventions that have been agreed for your
@@ -226,18 +225,16 @@ Different CSS preprocessors have different features, functionality, and syntax.
 Your conventions should be extended to accommodate the particularities of any
 preprocessor in use. The following guidelines are in reference to Sass.
 
-* Limit nesting to 1 level deep. Reassess any nesting more than 2 levels deep.
-  This prevents overly specific CSS selectors.
-* Avoid large numbers of nested rules. Break them up when readability starts to
-  be affected. Preference to avoid nesting that spreads over more than 20
-  lines.
+* Limit nesting to avoid overly specific CSS selectors. Only nest selectors if
+  you would have written the output with that many selectors if you weren't
+  using Sass.
 * Always place `@extend` statements on the first lines of a declaration
   block.
 * Where possible, group `@include` statements at the top of a declaration
   block, after any `@extend` statements.
-* Consider prefixing custom functions with `x-` or another namespace. This
-  helps to avoid any potential to confuse your function with a native CSS
-  function, or to clash with functions from libraries.
+* Consider prefixing custom functions with `dd-` (for Deloitte Digital) or
+  another namespace. This helps to avoid any potential to confuse your function
+  with a native CSS function, or to clash with functions from libraries.
 
 ```scss
 .selector-1 {
@@ -365,7 +362,7 @@ Code organization is an important part of any CSS code base, and crucial for
 large code bases.
 
 * Logically separate distinct pieces of code.
-* Use separate files (concatenated by a build step) to help break up code for
+* Use separate files (concatenated by Middleman) to help break up code for
   distinct components.
 * If using a preprocessor, abstract common code into variables for color,
   typography, etc.
@@ -376,27 +373,9 @@ large code bases.
 
 Projects should always attempt to include some generic means by which source
 can be linted, tested, compressed, and versioned in preparation for production
-use. For this task, [grunt](https://github.com/cowboy/grunt) by Ben Alman is an
-excellent tool.
+use. For this task, Deloitte Digital normally uses [Middleman](http://middlemanapp.com).
+[grunt](https://github.com/cowboy/grunt) by Ben Alman is another excellent tool.
 
-
-## Translations
-
-* [Česky](https://github.com/necolas/idiomatic-css/tree/master/translations/cs-CZ)
-* [Dansk](https://github.com/necolas/idiomatic-css/tree/master/translations/da-DK)
-* [Deutsch](https://github.com/necolas/idiomatic-css/tree/master/translations/de-DE)
-* [Español](https://github.com/necolas/idiomatic-css/tree/master/translations/es-ES)
-* [Français](https://github.com/necolas/idiomatic-css/tree/master/translations/fr-FR)
-* [Italiano](https://github.com/necolas/idiomatic-css/tree/master/translations/it-IT)
-* [日本語](https://github.com/necolas/idiomatic-css/tree/master/translations/ja-JP)
-* [한국어](https://github.com/necolas/idiomatic-css/tree/master/translations/ko-KR)
-* [Nederlands](https://github.com/necolas/idiomatic-css/tree/master/translations/nl-NL)
-* [Polski](https://github.com/necolas/idiomatic-css/tree/master/translations/pl-PL)
-* [Português (Brasil)](https://github.com/necolas/idiomatic-css/tree/master/translations/pt-BR)
-* [Русский](https://github.com/necolas/idiomatic-css/tree/master/translations/ru-RU)
-* [Srpski](https://github.com/necolas/idiomatic-css/tree/master/translations/sr-SR)
-* [Türkçe](https://github.com/necolas/idiomatic-css/tree/master/translations/tr-TR)
-* [简体中文](https://github.com/necolas/idiomatic-css/tree/master/translations/zh-CN)
 
 
 <a name="acknowledgements"></a>
