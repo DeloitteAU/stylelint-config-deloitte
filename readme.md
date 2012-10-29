@@ -5,7 +5,16 @@ This styleguide has been forked from Nicolas Gallagher's [Idiomatic CSS](https:/
 
 ## Table of contents
 
-<<toc>>
+1. General principles
+2. Whitespace
+3. Comments
+4. Format
+5. Naming
+6. Practical example
+7. Organization
+8. Build and deployment
+9. Acknowledgements
+10. License
 
 
 ## 1. General principles
