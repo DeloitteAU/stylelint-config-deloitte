@@ -32,11 +32,11 @@ This styleguide has been forked from Nicolas Gallagher's [Idiomatic CSS](https:/
 Only one style should exist across the entire source of your code-base. Always be consistent in your use of whitespace. Use whitespace to improve readability.
 
 * _Never_ mix spaces and tabs for indentation.
-* Always use real tabs instead of spaces. This allows other developers to set a tab width of their choice.
+* Real tabs are preferred over spaces. This allows other developers to set a tab width of their choice.
 
 Tip: configure your editor to "show invisibles". This will allow you to eliminate end of line whitespace, eliminate unintended blank line whitespace, and avoid polluting commits. In Sublime Text, this can be achieved by adding `"draw_white_space": "all"` to your User Preferences file.
 
-Tip: use an [EditorConfig](http://editorconfig.org/) file (or equivalent) to help maintain the basic whitespace conventions that have been agreed for your code-base.
+Tip: use an [EditorConfig](http://editorconfig.org/) file (or equivalent) to help maintain the basic whitespace conventions that have been agreed for your code-base. This has been added to the Deloitte Middleman template.
 
 
 ## 3. Comments
