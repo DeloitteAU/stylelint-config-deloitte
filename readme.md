@@ -28,12 +28,13 @@ This styleguide has been forked from Nicolas Gallagher's [Idiomatic CSS](https:/
 
 ## 2. Whitespace
 
-Only one style should exist across the entire source of your code-base. Always be consistent in your use of whitespace. Use whitespace to improve readability.
-
 * _Never_ mix spaces and tabs for indentation.
 * Real tabs are preferred over spaces. This allows other developers to set a tab width of their choice.
-
-Tip: configure your editor to "show invisibles". This will allow you to eliminate end of line whitespace, eliminate unintended blank line whitespace, and avoid polluting commits. In Sublime Text, this can be achieved by adding `"draw_white_space": "all"` to your User Preferences file.
+* If your editor supports it, always work with the "show invisibles" setting turned on. In Sublime Text, this can be achieved by adding `"draw_white_space": "all"` to your User Preferences file. The benefits of this practice are:
+	* Enforced consistency
+	* Eliminating end of line whitespace
+	* Eliminating blank line whitespace
+	* Commits and diffs that are easier to read
 
 Tip: use an [EditorConfig](http://editorconfig.org/) file (or equivalent) to help maintain the basic whitespace conventions that have been agreed for your code-base. This has been added to the Deloitte Middleman template.
 
@@ -42,8 +43,7 @@ Tip: use an [EditorConfig](http://editorconfig.org/) file (or equivalent) to hel
 
 Well commented code is extremely important. Take time to describe components, how they work, their limitations, and the way they are constructed. Don't leave others in the team guessing as to the purpose of uncommon or non-obvious code.
 
-Comment style should be simple and consistent within a single code base.
-
+* Comment style should be simple and consistent within a single code base.
 * Place comments on a new line above their subject.
 * Avoid end of line comments.
 * Keep line-length to a sensible maximum, e.g., 80 columns.
