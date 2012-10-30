@@ -13,8 +13,7 @@ This styleguide has been forked from Nicolas Gallagher's [Idiomatic CSS](https:/
 6. Practical example
 7. Organization
 8. Build and deployment
-9. Acknowledgements
-10. License
+9. License
 
 
 ## 1. General principles
@@ -305,12 +304,7 @@ Code organization is an important part of any CSS code base, and crucial for lar
 Projects should always attempt to include some generic means by which source can be linted, tested, compressed, and versioned in preparation for production use. For this task, Deloitte Digital normally uses [Middleman](http://middlemanapp.com). [grunt](https://github.com/cowboy/grunt) by Ben Alman is another excellent tool.
 
 
-## 9. Acknowledgements
-
-Thanks to everyone who has provided translations and to all those who contributed to [idiomatic.js](https://github.com/rwldrn/idiomatic.js). It was a source of inspiration, quotations, and guidelines.
-
-
-## 10. License
+## 9. License
 
 _Principles of writing consistent, idiomatic CSS_ by Nicolas Gallagher is licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/). This applies to all documents and translations in this repository.
 
