@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-deloitte",
   "version": "1.0.0",
-  "description": "Deloitte's Style lint config for our styleguide",
+  "description": "Deloitte's Stylelint config for our styleguide",
   "main": "index.js",
   "publishConfig": {
     "registry": "http://ausyd6856.au.deloitte.com:4567"
@@ -15,10 +15,10 @@
     "eslint": "^3.8.0",
     "eslint-config-deloitte": "^1.0.0",
     "eslint-plugin-import": "^2.0.1",
-    "stylelint": "^7.2.0"
+    "stylelint": "^7.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.2.0"
+    "stylelint": "^7.5.0"
   },
   "author": "Deloitte Digital",
   "license": "BSD-3-Clause"
