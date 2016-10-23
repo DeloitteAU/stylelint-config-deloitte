@@ -5,21 +5,24 @@ module.exports = {
 				'blockless-after-same-name-blockless',
 				'first-nested'
 			],
-			ignore: ['after-comment']
+			ignore: ['after-comment'],
+			ignoreAtRules: ['if', 'else', 'elseif']
 		}],
 		'at-rule-name-case': 'lower',
 		'at-rule-name-space-after': 'always-single-line',
 		'at-rule-semicolon-newline-after': 'always',
 		'block-closing-brace-empty-line-before': 'never',
-		'block-closing-brace-newline-after': 'always',
+		'block-closing-brace-newline-after': ['always', {
+			ignoreAtRules: ['if', 'else', 'elseif']
+		}],
 		'block-closing-brace-newline-before': 'always-multi-line',
 		'block-closing-brace-space-before': 'always-single-line',
 		'block-no-empty': true,
 		'block-opening-brace-newline-after': 'always-multi-line',
 		'block-opening-brace-space-after': 'always-single-line',
 		'block-opening-brace-space-before': 'always',
-		'color-hex-case': 'lower',
-		'color-hex-length': 'short',
+		'color-hex-case': 'upper',
+		'color-hex-length': null,
 		'color-no-invalid-hex': true,
 		'comment-empty-line-before': ['always', {
 			except: ['first-nested'],
@@ -53,16 +56,7 @@ module.exports = {
 		'declaration-colon-newline-after': 'always-multi-line',
 		'declaration-colon-space-after': 'always-single-line',
 		'declaration-colon-space-before': 'never',
-		'declaration-empty-line-before': ['always', {
-			except: [
-				'after-declaration',
-				'first-nested'
-			],
-			ignore: [
-				'after-comment',
-				'inside-single-line-block'
-			]
-		}],
+		'declaration-empty-line-before': null,
 		'function-calc-no-unspaced-operator': true,
 		'function-comma-newline-after': 'always-multi-line',
 		'function-comma-space-after': 'always-single-line',
@@ -121,7 +115,7 @@ module.exports = {
 		'selector-pseudo-element-no-unknown': true,
 		'selector-type-case': 'lower',
 		'selector-type-no-unknown': true,
-		'shorthand-property-no-redundant-values': true,
+		'shorthand-property-no-redundant-values': null,
 		'string-no-newline': true,
 		'unit-case': 'lower',
 		'unit-no-unknown': true,
