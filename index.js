@@ -91,6 +91,7 @@ module.exports = {
 		'number-no-trailing-zeros': true,
 		'property-case': 'lower',
 		'property-no-unknown': true,
+		'property-no-vendor-prefix': true,
 		'rule-nested-empty-line-before': ['always-multi-line', {
 			except: ['first-nested'],
 			ignore: ['after-comment']
@@ -111,17 +112,19 @@ module.exports = {
 		'selector-pseudo-class-no-unknown': true,
 		'selector-pseudo-class-parentheses-space-inside': 'never',
 		'selector-pseudo-element-case': 'lower',
-		'selector-pseudo-element-colon-notation': 'double',
+		'selector-pseudo-element-colon-notation': null,
 		'selector-pseudo-element-no-unknown': true,
 		'selector-type-case': 'lower',
 		'selector-type-no-unknown': true,
 		'shorthand-property-no-redundant-values': null,
 		'string-no-newline': true,
+		'stylelint-disable-reason': 'always-before',
 		'unit-case': 'lower',
 		'unit-no-unknown': true,
 		'value-list-comma-newline-after': 'always-multi-line',
 		'value-list-comma-space-after': 'always-single-line',
 		'value-list-comma-space-before': 'never',
-		'value-list-max-empty-lines': 0
+		'value-list-max-empty-lines': 0,
+		'value-no-vendor-prefix': true
 	}
 };
