@@ -1,15 +1,29 @@
 {
   "name": "stylelint-config-deloitte",
   "version": "1.0.0",
-  "description": "Deloitte's Stylelint config for our styleguide",
+  "description": "This package provides Deloitte Digital's code standards as an Style Lint extensible config",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "http://ausyd6856.au.deloitte.com:4567"
-  },
   "scripts": {
     "lint": "eslint **/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:DeloitteDigitalAPAC/stylelint-config-deloitte.git"
+  },
+  "keywords": [
+    "style",
+    "lint",
+    "sass",
+    "style lint",
+    "sass lint",
+    "sytlelintconfig",
+    "config",
+    "deloitte",
+    "styleguide"
+  ],
+  "engines": {
+    "node": ">= 4"
   },
   "devDependencies": {
     "eslint": "^3.8.0",
