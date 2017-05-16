@@ -45,7 +45,6 @@ module.exports = {
 		'declaration-block-no-duplicate-properties': [true, {
 			ignore: ['consecutive-duplicates-with-different-values']
 		}],
-		'declaration-block-no-ignored-properties': true,
 		'declaration-block-no-redundant-longhand-properties': true,
 		'declaration-block-no-shorthand-property-overrides': true,
 		'declaration-block-semicolon-newline-after': 'always-multi-line',
@@ -75,7 +74,6 @@ module.exports = {
 		'media-feature-colon-space-before': 'never',
 		'media-feature-name-case': 'lower',
 		'media-feature-name-no-unknown': true,
-		'media-feature-no-missing-punctuation': true,
 		'media-feature-parentheses-space-inside': 'never',
 		'media-feature-range-operator-space-after': 'always',
 		'media-feature-range-operator-space-before': 'always',
@@ -92,11 +90,8 @@ module.exports = {
 		'property-case': 'lower',
 		'property-no-unknown': true,
 		'property-no-vendor-prefix': true,
-		'rule-nested-empty-line-before': ['always-multi-line', {
+		'rule-empty-line-before': ['always-multi-line', {
 			except: ['first-nested'],
-			ignore: ['after-comment']
-		}],
-		'rule-non-nested-empty-line-before': ['always-multi-line', {
 			ignore: ['after-comment']
 		}],
 		'selector-attribute-brackets-space-inside': 'never',
@@ -118,7 +113,6 @@ module.exports = {
 		'selector-type-no-unknown': true,
 		'shorthand-property-no-redundant-values': null,
 		'string-no-newline': true,
-		'stylelint-disable-reason': 'always-before',
 		'unit-case': 'lower',
 		'unit-no-unknown': true,
 		'value-list-comma-newline-after': 'always-multi-line',
