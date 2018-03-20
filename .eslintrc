@@ -1,9 +1,0 @@
-{
-  "extends": "deloitte",
-  "globals": {
-    "module": true
-  },
-  "rules": {
-    "quote-props": 0
-  }
-}
