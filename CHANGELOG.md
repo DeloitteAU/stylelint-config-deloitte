@@ -1,4 +1,9 @@
-## Stylelint Config Deloitte Change log
+## Stylelint Config Deloitte Changelog
+
+### [1.0.2] 21 March 2018
+
+- Added `stylelint` as a dependency, so that installing this package will also install `stylelint`
+- Updated `eslint` for linting the code in this project
 
 ### [1.0.1] 16 May 2017
 
