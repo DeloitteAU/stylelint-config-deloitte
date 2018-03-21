@@ -1,8 +1,12 @@
-# stylelint-config-deloitte
+![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/eslint-config-deloitte/master/dd-logo.png)
 
-This package provides Deloitte Digital's code standards as a Style lint extensible config.
+# Stylelint Config Deloitte
+
+This package provides Deloitte Digital's code standards as a Stylelint extensible config.
 
 ## Installation
+
+Installing `stylelint-config-deloitte` will also install `stylelint`, because it is defined as a dependency.
 
 ```bash
 npm install --save-dev stylelint-config-deloitte
@@ -10,15 +14,16 @@ npm install --save-dev stylelint-config-deloitte
 
 ## Usage
 
-Add `"extends": "stylelint-config-deloitte"` to your .stylelintrc file.
+Add `"extends": "stylelint-config-deloitte"` to your .stylelintrc.js file.
 
 Example
 
-```json
-{
-  "extends": "stylelint-config-deloitte",
-  "plugins": []
-}
+```js
+module.exports = {
+	extends: [
+		'stylelint-config-deloitte',
+	],
+};
 ```
 
 ## Who is Deloitte Digital?
