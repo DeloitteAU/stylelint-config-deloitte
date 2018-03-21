@@ -21,5 +21,6 @@ Instructions for publishing new releases:
 - Check out the `master` branch.
 - Do not manually change version numbers in or `package.json` files (they are updated programatically).
 - Update the `CHANGELOG.md` file and add the changes to the git staging area. These changes will be included in the automatic commit that increments the version numbers. You don't need to commit them separately.
-- Run `npm version <newversion>`, where `<newversion>` is `major`, `minor`, `patch`, [etc](https://docs.npmjs.com/cli/version). This will create a version commit and tag in git.
+- Run `npm version <newversion>`, where `<newversion>` is `major`, `minor`, `patch`, [etc](https://docs.npmjs.com/cli/version). This will create a version commit and tag in git. The `--force` flag can added so that your staged changes to `CHANGELOG.md` are included in the version commit.
+- Push the commit and tag to Github.
 - Run `npm publish`.
