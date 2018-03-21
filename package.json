@@ -4,7 +4,7 @@
   "description": "This package provides Deloitte Digital's code standards as an Style Lint extensible config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js",
+    "lint": "eslint \"**/*.js\"",
     "prepublish": "npm run lint"
   },
   "repository": {
@@ -26,14 +26,11 @@
     "node": ">= 4"
   },
   "devDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-config-deloitte": "^1.0.0",
-    "eslint-plugin-import": "^2.0.1",
-    "stylelint": "^7.5.0"
-  },
-  "peerDependencies": {
-    "stylelint": "^7.5.0"
+    "eslint-config-deloitte": "^3.3.0"
   },
   "author": "Deloitte Digital Australia (http://deloittedigital.com.au)",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "stylelint": "^7.13.0"
+  }
 }
