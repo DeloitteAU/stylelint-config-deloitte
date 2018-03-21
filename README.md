@@ -1,6 +1,6 @@
 ![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/eslint-config-deloitte/master/dd-logo.png)
 
-# Stylelint Config Deloitte
+# Stylelint Config Deloitte [![Build Status](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte.svg?branch=master)](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte)
 
 This package provides Deloitte Digital's code standards as a Stylelint extensible config.
 
