@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-config-deloitte",
-  "version": "1.0.2",
-  "description": "This package provides Deloitte Digital's code standards as an Style Lint extensible config",
+  "name": "@deloitte-digital-au/stylelint-config",
+  "version": "1.1.0",
+  "description": "This package provides Deloitte Digital's code standards as an Stylelint extensible config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"**/*.js\"",
@@ -17,7 +17,7 @@
     "sass",
     "style lint",
     "sass lint",
-    "sytlelintconfig",
+    "stylelintconfig",
     "config",
     "deloitte",
     "styleguide"
@@ -26,11 +26,14 @@
     "node": ">= 4"
   },
   "devDependencies": {
-    "eslint-config-deloitte": "^3.3.0"
+    "@deloitte-digital-au/eslint-config": "^3.4.0"
   },
   "author": "Deloitte Digital Australia (http://deloittedigital.com.au)",
   "license": "BSD-3-Clause",
   "dependencies": {
     "stylelint": "^7.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

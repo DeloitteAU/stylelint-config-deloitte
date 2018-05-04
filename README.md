@@ -1,27 +1,27 @@
 ![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/eslint-config-deloitte/master/dd-logo.png)
 
-# Stylelint Config Deloitte [![Build Status](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte.svg?branch=master)](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte)
+# Deloitte Digital's Stylelint Config [![Build Status](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte.svg?branch=master)](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte)
 
 This package provides Deloitte Digital's code standards as a Stylelint extensible config.
 
 ## Installation
 
-Installing `stylelint-config-deloitte` will also install `stylelint`, because it is defined as a dependency.
+Installing `@deloitte-digital-au/stylelint-config` will also install `stylelint`, because it is defined as a dependency.
 
 ```bash
-npm install --save-dev stylelint-config-deloitte
+npm install --save-dev @deloitte-digital-au/stylelint-config
 ```
 
 ## Usage
 
-Add `"extends": "stylelint-config-deloitte"` to your .stylelintrc.js file.
+Add `"extends": "@deloitte-digital-au/stylelint-config"` to your .stylelintrc.js file.
 
 Example
 
 ```js
 module.exports = {
 	extends: [
-		'stylelint-config-deloitte',
+		'@deloitte-digital-au/stylelint-config',
 	],
 };
 ```

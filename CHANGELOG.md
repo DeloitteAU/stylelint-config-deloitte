@@ -1,4 +1,8 @@
-## Stylelint Config Deloitte Changelog
+## Changelog for Deloitte Digital's Stylelint Config
+
+### [1.1.0] 4 May 2018
+
+- Package renamed to `@deloitte-digital-au/stylelint-config`
 
 ### [1.0.2] 21 March 2018
 
