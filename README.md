@@ -1,3 +1,5 @@
+# stylelint-config-deloitte has been renamed to @deloitte-digital-au/stylelint-config
+
 ![Deloitte Digital](https://raw.githubusercontent.com/DeloitteDigitalAPAC/eslint-config-deloitte/master/dd-logo.png)
 
 # Stylelint Config Deloitte [![Build Status](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte.svg?branch=master)](https://travis-ci.org/DeloitteDigitalAPAC/stylelint-config-deloitte)
