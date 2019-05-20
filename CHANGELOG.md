@@ -1,5 +1,9 @@
 ## Changelog for Deloitte Digital's Stylelint Config
 
+### [2.0.0] 20 May 2019
+
+- Upgraded to stylelint v10
+
 ### [1.1.0] 4 May 2018
 
 - Package renamed to `@deloitte-digital-au/stylelint-config`

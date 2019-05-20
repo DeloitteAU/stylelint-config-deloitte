@@ -1,6 +1,6 @@
 {
   "name": "@deloitte-digital-au/stylelint-config",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "This package provides Deloitte Digital's code standards as an Stylelint extensible config",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   "author": "Deloitte Digital Australia (http://deloittedigital.com.au)",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "stylelint": "^7.13.0"
+    "stylelint": "^10.0.1"
   },
   "publishConfig": {
     "access": "public"
