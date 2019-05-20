@@ -1,5 +1,9 @@
 ## Changelog for Deloitte Digital's Stylelint Config
 
+### [2.0.1] 20 May 2019
+
+- Fixed issue with function-calc-no-invalid rule throwing warning
+
 ### [2.0.0] 20 May 2019
 
 - Upgraded to stylelint v10

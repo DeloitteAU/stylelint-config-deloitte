@@ -56,7 +56,7 @@ module.exports = {
 		'declaration-colon-space-after': 'always-single-line',
 		'declaration-colon-space-before': 'never',
 		'declaration-empty-line-before': null,
-		'function-calc-no-invalid': 'always',
+		'function-calc-no-invalid': true,
 		'function-calc-no-unspaced-operator': true,
 		'function-comma-newline-after': 'always-multi-line',
 		'function-comma-space-after': 'always-single-line',
